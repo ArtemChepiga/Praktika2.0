@@ -1,7 +1,6 @@
-package Task02;
+package Task02.ex1;
 
 import java.io.*;
-import java.util.Scanner;
 
 public class Main {
     private static Calc calc = new Calc();

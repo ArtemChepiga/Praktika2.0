@@ -1,8 +1,6 @@
-package Task02;
+package Task02.ex1;
 
 import org.junit.Assert;
-
-import static org.junit.Assert.*;
 
 public class MainTest {
     Main main = new Main();

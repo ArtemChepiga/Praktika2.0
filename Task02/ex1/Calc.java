@@ -1,4 +1,4 @@
-package Task02;
+package Task02.ex1;
 
 import java.io.Serializable;
 import java.util.Scanner;
