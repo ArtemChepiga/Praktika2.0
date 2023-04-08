@@ -50,7 +50,7 @@ public class Calc implements Serializable {
      * Выводит информацию про треугольник
      */
     public void displayCalc(){
-        System.out.println("Площа рівностороннього трикутника: " + triArea); //вивод
+        System.out.println("Площа рівностороннього трикутника: " + triArea);
         System.out.println("Площа рівностороннього прямокутника: " + recArea);
         System.out.println("Сума площ: " + sumArea);
     }
@@ -61,5 +61,29 @@ public class Calc implements Serializable {
 
     public void setBinaryString(String binaryString) {
         this.binaryString = binaryString;
+    }
+
+    public int getTriArea() {
+        return triArea;
+    }
+
+    public void setTriArea(int triArea) {
+        this.triArea = triArea;
+    }
+
+    public int getRecArea() {
+        return recArea;
+    }
+
+    public void setRecArea(int recArea) {
+        this.recArea = recArea;
+    }
+
+    public int getSumArea() {
+        return sumArea;
+    }
+
+    public void setSumArea(int sumArea) {
+        this.sumArea = sumArea;
     }
 }

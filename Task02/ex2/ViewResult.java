@@ -89,6 +89,7 @@ public class ViewResult implements View {
         items = (ArrayList<Calc>) is.readObject();
         is.close();
     }
+
     /** Реализация метода {@linkplain View#viewHeader()}<br>
      * {@inheritDoc}
      */
